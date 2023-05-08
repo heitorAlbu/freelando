@@ -24,6 +24,4 @@ export const Tipografia = ({ variante, componente, children }) => {
     return (<ComponenteUtilizado>
         {children}
     </ComponenteUtilizado>)
-
-
 }
