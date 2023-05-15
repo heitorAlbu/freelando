@@ -6,6 +6,7 @@ import { Tipografia } from "./componentes/Tipografia/Tipografia";
 import { CampoTexto } from "./componentes/CampoTexto/CampoTexto";
 import { Container, Row, Col } from "react-grid-system";
 import { Botao } from "./componentes/Botao/Botao";
+import { ListaSuspensa } from "./componentes/ListaSuspensa/ListaSuspensa";
 function App() {
   return (
     <ProvedorTema>
@@ -28,7 +29,7 @@ function App() {
               </Row>
               <Row>
                 <Col lg={4} md={4} sm={4}>
-                  <CampoTexto titulo="Estado"></CampoTexto>
+                  <ListaSuspensa titulo="Estado"></ListaSuspensa>
                 </Col>
                 <Col lg={8} md={8} sm={8}>
                   <CampoTexto titulo="Cidade"></CampoTexto>
