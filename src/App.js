@@ -9,7 +9,7 @@ import { Botao } from "./componentes/Botao/Botao";
 function App() {
   return (
     <ProvedorTema>
-      <Container>
+      <Container style={{ margin: '80px 0' }}>
         <Estilos />
         <Row justify="center">
           <Col lg={6} md={8} sm={12}>
@@ -50,7 +50,7 @@ function App() {
               <Row>
                 <Col lg={6} md={6} sm={6}>
                   <Botao variante="secundaria">
-                    Anterior
+                    Anteriô'
                   </Botao>
                 </Col>
                 <Col lg={6} md={6} sm={6}>
